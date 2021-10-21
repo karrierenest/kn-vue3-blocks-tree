@@ -1,4 +1,4 @@
-# vue3-blocks-tree
+# kn-vue3-blocks-tree
 
 > A simple organization structure tree view based on Vue3.x. It supports events, slots, horizontal vision and nodes manipulation
 
