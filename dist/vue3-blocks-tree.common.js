@@ -1421,7 +1421,7 @@ function _defineProperty(obj, key, value) {
     var labelWidth = Object(external_commonjs_vue_commonjs2_vue_root_Vue_["computed"])(function () {
       return props.labelWidth ? typeof props.labelWidth == 'number' ? "".concat(props.labelWidth, "px") : props.labelWidth : 'auto';
     });
-    var expanded = Object(external_commonjs_vue_commonjs2_vue_root_Vue_["ref"])(props.data[props.props.expand] || true);
+    var expanded = Object(external_commonjs_vue_commonjs2_vue_root_Vue_["ref"])(props.data[props.props.expand] && true );
     var nodeClass = Object(external_commonjs_vue_commonjs2_vue_root_Vue_["computed"])(function () {
       return {
         'org-tree-node': true,
