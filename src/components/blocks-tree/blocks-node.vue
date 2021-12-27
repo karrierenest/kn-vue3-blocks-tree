@@ -1,6 +1,6 @@
 <template>
     <div :class="nodeClass">
-        <div class="org-tree-node-label">
+        <div class="org-tree-node-label test1">
             <div :class="innerLabelClass" :style="{width:labelWidth}" 
                 @click="(e)=>$emit('node-click',e,data,nodeContext)" 
                 @mouseout="(e)=>$emit('node-mouseout',e,data,nodeContext)" 
